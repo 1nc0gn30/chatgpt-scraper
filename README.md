@@ -1,4 +1,4 @@
-ChatGPT-Scraper
+#ChatGPT-Scraper
 
 ChatGPT-Scraper is a powerful chatbot tool that leverages OpenAI's GPT models to engage in interactive conversations. What sets this chatbot apart is its ability to scrape the internet, specifically utilizing Google's Custom Search API to fetch search results based on user queries.
 Features
