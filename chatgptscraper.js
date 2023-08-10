@@ -14,7 +14,7 @@ class ChatGPT {
   }
 
   async searchGoogle(query) {
-    const apiKey = 'AIzaSyC_SKDvoV_LOb4a4hzUa8sO78h2efRFy8g';
+    const apiKey = 'Replace with Your Google Search API make sure you set your settings right';
     const cx = 'a0d492aa359e14207';
     const url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${encodeURIComponent(query)}`;
 
@@ -80,7 +80,7 @@ class ChatGPT {
   }
 }
 
-const apiKey = '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';
+const apiKey = 'Replace with your ChatGPT API make sure you have all settings fixed in openai';
 const chatGPT = new ChatGPT(apiKey);
 
 const messageInput = document.getElementById('messageInput');
