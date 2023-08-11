@@ -15,7 +15,7 @@ class ChatGPT {
 
   async searchGoogle(query) {
     const apiKey = 'Replace with Your Google Search API make sure you set your settings right';
-    const cx = 'a0d492aa359e14207';
+    const cx = 'Replace';
     const url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${encodeURIComponent(query)}`;
 
     try {
@@ -38,7 +38,7 @@ class ChatGPT {
     const messages = [
       {
         'role': 'system',
-        'content': 'you are neo. a a.i. helper who scrapes the internet.'
+        'content': 'Replace'
       },
       ...this.conversationHistory // Include conversation history
     ];
